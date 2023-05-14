@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.5) 0%, rgba(233, 130, 131, 0.5) 100%) no-repeat center top ;
+    border-radius: 5px;
+}
+
+.navLink {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 10px;
+    background-color:cornflowerblue;
+    transition: 0.3s;
+    width: 140px;
+    height: 45px;
+
+    &:hover {
+        color: black;
+        background-color: #0073ff;
+    }
+}
+

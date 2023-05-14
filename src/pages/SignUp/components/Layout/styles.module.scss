@@ -1,0 +1,17 @@
+.wrapper {
+    background: linear-gradient(360deg, rgba(237, 215, 137, 0.5) 0%, rgba(233, 130, 131, 0.5) 100%), url(..//..//..//../static/images/signUp.png) no-repeat right bottom / contain;
+    border-radius: 10px;
+    height: 100vh;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 10px;
+    width: 200px;
+}
+
+.errors {
+    color: red;
+}

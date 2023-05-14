@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.errors {
+    color: red;
+}
+
+.pokemons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
